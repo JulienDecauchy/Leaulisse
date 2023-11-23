@@ -1,0 +1,36 @@
+:root {
+    --main-color: #CDC8B0;
+    /* var(--main-color) */
+    --second-color: #DAD4BB;
+    /* var(--second-color)*/
+    --third-color: #B4AF9A;
+    /* var(--third-color)*/
+    --fourth-color: #4E4B42;
+    /*var(--fourth-color)*/
+}
+
+* {
+    font-family: Merriweather;
+}
+
+body {
+    margin: 0;
+    max-width: 100%;
+}
+
+header,
+footer {
+    background: var(--second-color);
+}
+
+@media (max-width: 1490px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 425px) {
+
+}
