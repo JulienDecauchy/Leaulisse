@@ -29,6 +29,17 @@ header {
     height: 8.75rem;
 }
 
+.img-bg {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
 footer {
     background: var(--second-color);
 }
@@ -38,6 +49,7 @@ footer {
     width: 100%;
     margin: 0;
 }
+
 .logo-div {
     float: left;
     height: 7rem;
@@ -143,16 +155,19 @@ ul li a:hover {
 .service-div p {
     padding-right: 15%;
 }
+
 .footer-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
+
 .footer-links {
     margin-right: 10%;
     margin-left: 10%;
 }
+
 .footer-links div {
     display: flex;
     flex-direction: column;
@@ -160,17 +175,21 @@ ul li a:hover {
     align-items: center;
     margin: 35% 0%;
 }
+
 .footer-links h3 {
     font-size: 22px;
 }
+
 .footer-links p {
     font-size: 20px;
     margin: 0;
     padding: 0;
 }
+
 .footer-map {
     margin: 2.5% 10% 2.5% 25%;
 }
+
 @media (max-width: 1490px) {}
 
 @media (max-width: 1024px) {}
