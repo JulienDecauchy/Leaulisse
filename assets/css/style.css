@@ -1,7 +1,7 @@
 :root {
-    --main-color: linear-gradient(#213A8E, #A6CDEE);
+    --main-color: linear-gradient(#213a8ebe, #A6CDEE);
     /* var(--main-color) */
-    --second-color: linear-gradient(#A6CDEE, #213A8E);
+    --second-color: linear-gradient(#A6CDEE, #213a8ebe);
     /* var(--second-color)*/
     --third-color: #A6CDEE;
     /* var(--third-color)*/
@@ -24,7 +24,7 @@ body {
 
 header {
     background: var(--main-color);
-    height: 8rem;
+    height: 8.75rem;
 }
 
 footer {
@@ -99,6 +99,7 @@ ul li a:hover {
 
 .title-div h1 {
     font-size: 50px;
+    color: #132253;
 }
 
 .main-content-div {
@@ -143,7 +144,34 @@ ul li a:hover {
 .service-div p {
     padding-right: 15%;
 }
-
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-links {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35% 0%;
+}
+.footer-links h3 {
+    font-size: 22px;
+}
+.footer-links p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.footer-map {
+    margin: 2.5% 10% 2.5% 25%;
+}
 @media (max-width: 1490px) {}
 
 @media (max-width: 1024px) {}
