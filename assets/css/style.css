@@ -15,6 +15,8 @@
 
 a {
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 body {
@@ -36,7 +38,6 @@ footer {
     width: 100%;
     margin: 0;
 }
-
 .logo-div {
     float: left;
     height: 7rem;
@@ -56,18 +57,16 @@ footer {
 }
 
 ul {
-    float: right;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0;
-    width: 80%;
 }
 
 ul li {
     list-style: none;
     padding: 2.55rem;
-    font-size: 2rem;
-    width: 80%;
+    font-size: 1.55rem;
     text-align: center;
 }
 
