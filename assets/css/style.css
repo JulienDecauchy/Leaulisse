@@ -168,6 +168,7 @@ ul li a:hover {
 .service-div p {
     padding-right: 15%;
 }
+
 .service-bg {
     position: absolute;
     z-index: -1;
@@ -179,6 +180,7 @@ ul li a:hover {
     opacity: 90%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
+
 .footer-wrapper {
     display: flex;
     flex-direction: row;
@@ -212,10 +214,12 @@ ul li a:hover {
 .footer-map {
     margin: 2.5% 10% 2.5% 25%;
 }
+
 .footer-map iframe {
     width: 550px;
     height: 300px;
 }
+
 /*Page À Propos et Mentions Légales*/
 .main-content-div-apropos {
     display: flex;
@@ -223,6 +227,7 @@ ul li a:hover {
     align-items: center;
     margin-bottom: 10rem;
 }
+
 .apropos-div {
     background-color: white;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
@@ -230,15 +235,32 @@ ul li a:hover {
     width: 50%;
     height: 75rem;
 }
+
 .apropos-div h2 {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2.5rem;
 }
+
 .apropos-div p {
     font-size: 1rem;
     padding: 2.5rem;
+}
+
+/**/
+.service-div h2, .service-div p {
+    animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 /*****************/
