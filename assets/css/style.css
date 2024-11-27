@@ -25,12 +25,16 @@ body {
 }
 
 header {
-    background: var(--main-color);
+    background: white;
     height: 8.75rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
 
 .img-bg {
-    z-index: -1;
+    z-index: -10;
     position: fixed;
     top: 0;
     left: 0;
@@ -41,7 +45,7 @@ header {
 }
 
 footer {
-    background: var(--second-color);
+    background: white;
 }
 
 .wrapper {
@@ -119,7 +123,7 @@ ul li a:hover {
 
 .main-content-div div {
     padding-bottom: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 8.5rem;
 }
 
 .main-content-border {
@@ -139,8 +143,16 @@ ul li a:hover {
 }
 
 .main-content-border img {
-    width: 400px;
+    width: 600px;
     height: 400px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.img-div {
+    position: absolute;
+    z-index: -2;
+    margin-top: 1rem;
+    margin-left: 40rem;
 }
 
 .service-div {
@@ -155,7 +167,17 @@ ul li a:hover {
 .service-div p {
     padding-right: 15%;
 }
-
+.service-bg {
+    position: absolute;
+    z-index: -1;
+    width: 40rem;
+    height: 17rem;
+    margin-top: 0.2rem;
+    margin-left: 0.75rem;
+    background-color: white;
+    opacity: 90%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
 .footer-wrapper {
     display: flex;
     flex-direction: row;
@@ -173,7 +195,7 @@ ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 35% 0%;
+    margin: 1.5rem 0rem;
 }
 
 .footer-links h3 {
@@ -189,7 +211,35 @@ ul li a:hover {
 .footer-map {
     margin: 2.5% 10% 2.5% 25%;
 }
-
+.footer-map iframe {
+    width: 550px;
+    height: 300px;
+}
+/*Page A Propos*/
+.main-content-div-apropos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.apropos-div {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    opacity: 95%;
+    width: 50%;
+    height: 75rem;
+}
+.apropos-div h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.apropos-div p {
+    font-size: 1rem;
+    padding: 2.5rem;
+}
+/*****************/
 @media (max-width: 1490px) {}
 
 @media (max-width: 1024px) {}
