@@ -172,14 +172,19 @@ ul li span {
 .service-div p {
     padding-right: 15%;
     line-height: 1.75rem;
-    margin: 0;
+    margin: 0 0 1.25rem 0;
+}
+
+.fa-droplet {
+    color: var(--fourth-color);
+    margin-right: 0.25rem;
 }
 
 .service-bg {
     position: absolute;
     z-index: -1;
     width: 40rem;
-    height: 17rem;
+    height: 19rem;
     margin-top: 0.2rem;
     margin-left: 0.75rem;
     background-color: white;
