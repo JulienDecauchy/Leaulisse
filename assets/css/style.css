@@ -32,6 +32,14 @@ header {
     z-index: 1;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
 
 .img-bg {
     z-index: -10;
@@ -121,7 +129,18 @@ ul li span {
     color: #132253;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
-
+.accueil-info {
+    margin: 0rem 0rem 10rem 10rem;
+    padding: 1.5rem;
+    width: 80%;
+    height: 12rem;
+    background-color: white;
+    opacity: 90%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+.accueil-info p {
+    font-size: large;
+}
 .main-content-div {
     padding-left: 25%;
 }
@@ -175,10 +194,6 @@ ul li span {
     margin: 0 0 1.25rem 0;
 }
 
-.service-p-interactive:hover {
-
-}
-
 .fa-droplet {
     color: var(--fourth-color);
     margin-right: 0.25rem;
@@ -188,7 +203,7 @@ ul li span {
     position: absolute;
     z-index: -1;
     width: 40rem;
-    height: 19rem;
+    height: 22rem;
     margin-top: 0.2rem;
     margin-left: 0.75rem;
     background-color: white;
@@ -199,13 +214,66 @@ ul li span {
 #service-bg-chaudiere {
     position: absolute;
     z-index: -1;
-    width: 40rem;
+    width: 42rem;
     height: 81rem;
     margin-top: 0.2rem;
     margin-left: 0.75rem;
     background-color: white;
     opacity: 90%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+#service-bg-adoucisseur {
+    position: absolute;
+    z-index: -1;
+    width: 47rem;
+    height: 62rem;
+    margin-top: 0.2rem;
+    margin-left: 0.75rem;
+    background-color: white;
+    opacity: 90%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+#service-bg-Climatisation_PAC {
+    position: absolute;
+    z-index: -1;
+    width: 51rem;
+    height: 100rem;
+    margin-top: 0.2rem;
+    margin-left: 0.75rem;
+    background-color: white;
+    opacity: 90%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+#service-bg-chauffe-eau_bain {
+    position: absolute;
+    z-index: -1;
+    width: 51rem;
+    height: 55rem;
+    margin-top: 0.2rem;
+    margin-left: 0.75rem;
+    background-color: white;
+    opacity: 90%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+#main-content-border-adoucisseur,
+#main-content-border-Climatisation_PAC,
+#main-content-border-chauffe-eau_bain {
+    margin-right: 40%;
+}
+#main-content-border-adoucisseur h2,
+#main-content-border-adoucisseur p,
+#main-content-border-Climatisation_PAC h2,
+#main-content-border-Climatisation_PAC p,
+#main-content-border-chauffe-eau_bain h2,
+#main-content-border-chauffe-eau_bain p {
+    padding-left: 1rem;
+}
+#main-content-border-adoucisseur .service-div,
+#main-content-border-Climatisation_PAC .service-div,
+#main-content-border-chauffe-eau_bain .service-div {
+    width: 100%;
 }
 
 /*************************************/
@@ -301,7 +369,7 @@ ul li span {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
     opacity: 95%;
     width: 50%;
-    height: 75rem;
+    height: 45rem;
 }
 
 .apropos-div h2 {
@@ -312,7 +380,7 @@ ul li span {
 }
 
 .apropos-div p {
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding: 2.5rem;
 }
 
