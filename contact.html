@@ -46,14 +46,12 @@
                 <div class="apropos-div">
                     <h2>Contact</h2>
                     <p></p>
-                    <form action="contact.php" method="post">
-                        Mail : <input type="text" name="mail">
-                        <br>
-                        Sujet : <input type="text" name="sujet">
-                        <br>
-                        Message : <textarea name="message" cols="40" rows="20"></textarea>
-                        <br>
-                        <input type="submit" name="envoyer" value="Envoyer">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="d11ae087-f8ee-4b4e-9b7b-9a2b2a3aa03a">
+                        <input type="text" name="mail" placeholder="Votre E-Mail">
+                        <input type="text" name="sujet" placeholder="Votre Sujet">
+                        <textarea name="message" placeholder="Votre Message"></textarea>
+                        <button type="submit">Envoyer</button>
                     </form>
                 </div>
             </div>
