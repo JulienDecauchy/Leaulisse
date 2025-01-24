@@ -671,4 +671,133 @@ ul li span {
 }
 
 /*Mobile Small*/
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    header {
+        position: relative;
+        height: 20rem;
+    }
+
+    .logo-div {
+        float: none;
+        height: 7rem;
+        width: 15%;
+        padding-left: 22%;
+        padding-top: 0.5rem;
+    }
+    .logo-div img {
+        width: auto;
+    }
+    ul {
+        margin: 0% 10% 0% 0%;
+        justify-content: center;
+    }
+    ul li {
+        font-size: 0.95rem;
+        padding: 0.3rem 0.5rem;
+    }
+
+    .title-div h1 {
+        font-size: 16px;
+    }
+
+    .accueil-info {
+        margin: 0rem 0rem 2.5rem 0.5rem;
+        height: 16rem;
+        width: 80%;
+    }
+    .accueil-info p {
+        font-size: 0.7rem;
+    }
+    
+    .main-content-border img {
+        width: 250px;
+        height: 150px;
+    }
+
+    .main-content-border .img-vertical {
+        width: 150px;
+        height: 225px;
+    }
+    
+    .img-div {
+        margin-left: 2rem;
+        margin-top: 12.5rem;
+    }
+    #img-div-vertical {
+        margin-left: 8.25rem;
+        margin-top: 6.5rem;
+    }
+
+    .service-div {
+        padding-left: 6.5%;
+        width: 95%;
+    }
+    .service-div h2 {
+        font-size: 14px;
+    }
+    
+    .service-div p {
+        padding-right: 15%;
+        line-height: 1.25rem;
+        margin: 0 0 1.25rem 0;
+        font-size: 0.6rem;
+    }
+    
+    .service-bg {
+        width: 16rem;
+        height: 14.2rem;
+    }
+
+    hr {
+        width: 85%;
+    }
+
+    .apropos-div {
+        width: 75%;
+        height: 54rem;
+    }
+
+    #service-bg-misenservice {
+        height: 26rem;
+    }
+
+    #service-bg-chaudiere {
+        width: 35.5rem;
+        height: 86.5rem;
+    }
+
+    #service-bg-chauffe-eau_bain {
+        width: 39.75rem;
+    }
+    
+    #service-bg-adoucisseur {
+        width: 39.75rem;
+        height: 70rem;
+    }
+
+    #service-bg-Climatisation_PAC {
+        width: 40rem;
+        height: 102rem;
+    }
+
+    .horscontrat-div {
+        margin-left: 40%;
+
+    }
+    
+    .horscontrat-div h2 {
+        font-size: 30px;
+    }
+    
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-map {
+        margin: 0.25% 0.5% 0.25% 0.5%;
+    }
+
+    .footer-map iframe {
+        width: 275px;
+        height: 272px;
+    }
+}
