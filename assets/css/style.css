@@ -689,6 +689,287 @@ ul li span {
     }
 }
 
+/*Mobile Large*/
+@media (max-width: 425px) {
+    header {
+        position: relative;
+        height: 17rem;
+    }
+
+    .logo-div {
+        float: none;
+        height: 7rem;
+        width: 15%;
+        padding-left: 30%;
+        padding-top: 0.5rem;
+    }
+    .logo-div img {
+        width: auto;
+    }
+    ul {
+        margin: 0% 10% 0% 0%;
+        justify-content: center;
+    }
+    ul li {
+        font-size: 0.95rem;
+        padding: 0.3rem 0.5rem;
+    }
+
+    .title-div h1 {
+        font-size: 20px;
+    }
+
+    .accueil-info {
+        margin: 0rem 0rem 2.5rem 1.25rem;
+        height: 16rem;
+        width: 80%;
+    }
+    .accueil-info p {
+        font-size: 0.8rem;
+    }
+    
+    .main-content-border img {
+        width: 250px;
+        height: 150px;
+    }
+
+    .main-content-border .img-vertical {
+        width: 150px;
+        height: 225px;
+    }
+    
+    .img-div {
+        margin-left: 7rem;
+        margin-top: 11.5rem;
+    }
+    #img-div-vertical {
+        margin-left: 13.25rem;
+        margin-top: 6.5rem;
+    }
+
+    .service-div {
+        padding-left: 6.5%;
+        width: 95%;
+    }
+    .service-div h2 {
+        font-size: 18px;
+    }
+    
+    .service-div p {
+        padding-right: 15%;
+        line-height: 1.25rem;
+        margin: 0 0 1.25rem 0;
+        font-size: 0.6rem;
+    }
+    
+    .service-bg {
+        width: 20rem;
+        height: 13.2rem;
+    }
+
+    .apropos-div {
+        width: 95%;
+        height: 48rem;
+    }
+    .apropos-div p {
+        font-size: 0.9rem;
+        padding: 2.5rem;
+    }
+    
+    #service-bg-misenservice {
+        height: 15rem;
+        width: 20rem;
+    }
+
+    #service-bg-chaudiere {
+        width: 20rem;
+        height: 70.5rem;
+    }
+
+    #service-bg-chauffe-eau_bain {
+        width: 21rem;
+        height: 49rem;
+    }
+    
+    #service-bg-adoucisseur {
+        width: 21rem;
+        height: 59rem;
+    }
+
+    #service-bg-Climatisation_PAC {
+        width: 21rem;
+        height: 95rem;
+    }
+
+    .horscontrat-div {
+        margin-left: 35%;
+
+    }
+    
+    .horscontrat-div h2 {
+        font-size: 19px;
+    }
+    
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-map {
+        margin: 0.25% 0.5% 0.25% 0.5%;
+    }
+
+    .footer-map iframe {
+        width: 275px;
+        height: 272px;
+    }
+        /*****/
+        .gallery-container img {
+            width: 250px;
+            height: 400px;
+            margin: 10px;
+            border: 5px solid #fefae0;
+        }
+        .gallery-container-clim img {
+            width: 325px;
+            height: 175px;
+            margin: 10px;
+            border: 5px solid #fefae0;
+        }
+}
+
+/*Mobile Medium*/
+@media (max-width: 375px) {
+    header {
+        position: relative;
+        height: 20rem;
+    }
+
+    .logo-div {
+        float: none;
+        height: 7rem;
+        width: 15%;
+        padding-left: 22%;
+        padding-top: 0.5rem;
+    }
+    .logo-div img {
+        width: auto;
+    }
+    ul {
+        margin: 0% 10% 0% 0%;
+        justify-content: center;
+    }
+    ul li {
+        font-size: 0.95rem;
+        padding: 0.3rem 0.5rem;
+    }
+
+    .title-div h1 {
+        font-size: 16px;
+    }
+
+    .accueil-info {
+        margin: 0rem 0rem 2.5rem 0.5rem;
+        height: 16rem;
+        width: 80%;
+    }
+    .accueil-info p {
+        font-size: 0.7rem;
+    }
+    
+    .main-content-border img {
+        width: 250px;
+        height: 150px;
+    }
+
+    .main-content-border .img-vertical {
+        width: 150px;
+        height: 225px;
+    }
+    
+    .img-div {
+        margin-left: 2rem;
+        margin-top: 12.5rem;
+    }
+    #img-div-vertical {
+        margin-left: 8.25rem;
+        margin-top: 6.5rem;
+    }
+
+    .service-div {
+        padding-left: 6.5%;
+        width: 95%;
+    }
+    .service-div h2 {
+        font-size: 14px;
+    }
+    
+    .service-div p {
+        padding-right: 15%;
+        line-height: 1.25rem;
+        margin: 0 0 1.25rem 0;
+        font-size: 0.6rem;
+    }
+    
+    .service-bg {
+        width: 16rem;
+        height: 14.2rem;
+    }
+
+    .apropos-div {
+        width: 95%;
+        height: 54rem;
+    }
+    .apropos-div p {
+        font-size: 0.9rem;
+        padding: 2.5rem;
+    }
+    
+    #service-bg-misenservice {
+        height: 17rem;
+        width: 16rem;
+    }
+
+    #service-bg-chaudiere {
+        width: 16rem;
+        height: 86.5rem;
+    }
+
+    #service-bg-chauffe-eau_bain {
+        width: 16rem;
+        height: 52rem;
+    }
+    
+    #service-bg-adoucisseur {
+        width: 16rem;
+        height: 67rem;
+    }
+
+    #service-bg-Climatisation_PAC {
+        width: 16rem;
+        height: 102rem;
+    }
+
+    .horscontrat-div {
+        margin-left: 35%;
+
+    }
+    
+    .horscontrat-div h2 {
+        font-size: 16px;
+    }
+    
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-map {
+        margin: 0.25% 0.5% 0.25% 0.5%;
+    }
+
+    .footer-map iframe {
+        width: 275px;
+        height: 272px;
+    }
+}
+
 /*Mobile Small*/
 @media (max-width: 320px) {
     header {
@@ -821,17 +1102,4 @@ ul li span {
         width: 275px;
         height: 272px;
     }
-        /*****/
-        .gallery-container img {
-            width: 250px;
-            height: 400px;
-            margin: 10px;
-            border: 5px solid #fefae0;
-        }
-        .gallery-container-clim img {
-            width: 325px;
-            height: 175px;
-            margin: 10px;
-            border: 5px solid #fefae0;
-        }
 }
