@@ -482,14 +482,15 @@ ul li span {
     #service-div-chaudiere {
         width: 90%;
     }
+
     #service-bg-adoucisseur {
         height: 65rem;
     }
-    
+
     #service-bg-Climatisation_PAC {
         height: 100rem;
     }
-    
+
 
 }
 
@@ -541,12 +542,6 @@ ul li span {
         height: 50rem;
     }
 
-    #main-content-border-adoucisseur,
-    #main-content-border-Climatisation_PAC,
-    #main-content-border-chauffe-eau_bain {
-        margin-right: 0%;
-    }
-
     #service-bg-misenservice {
         width: 30rem;
         height: 30rem;
@@ -575,6 +570,104 @@ ul li span {
     }
 
 
+}
+
+/*Tablet*/
+@media (max-width: 832px) {
+    header {
+        position: relative;
+        height: 17rem;
+    }
+
+    .logo-div {
+        padding-top: 4rem;
+    }
+
+    .title-div h1 {
+        font-size: 35px;
+    }
+
+    .accueil-info {
+        margin: 0rem 0rem 7.5rem 5rem;
+        height: 19rem;
+    }
+
+    .main-content-border img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .main-content-border .img-vertical {
+        width: 250px;
+        height: 325px;
+    }
+    
+    .img-div {
+        margin-left: 20rem;
+    }
+    #img-div-vertical {
+        margin-left: 25rem;
+    }
+
+    .service-div {
+        padding-left: 3.5%;
+        width: 75%;
+    }
+    .service-bg {
+        width: 31rem;
+        height: 20rem;
+    }
+
+    hr {
+        width: 85%;
+    }
+
+    .apropos-div {
+        width: 75%;
+        height: 54rem;
+    }
+
+    #service-bg-misenservice {
+        height: 26rem;
+    }
+
+    #service-bg-chaudiere {
+        width: 35.5rem;
+        height: 86.5rem;
+    }
+
+    #service-bg-chauffe-eau_bain {
+        width: 39.75rem;
+    }
+    
+    #service-bg-adoucisseur {
+        width: 39.75rem;
+        height: 70rem;
+    }
+
+    #service-bg-Climatisation_PAC {
+        width: 40rem;
+        height: 102rem;
+    }
+
+    .horscontrat-div {
+        margin-left: 40%;
+
+    }
+    
+    .horscontrat-div h2 {
+        font-size: 30px;
+    }
+    
+
+    .footer-map {
+        margin: 2.5% 2.5% 2.5% 2.5%;
+    }
+
+    .footer-map iframe {
+        width: 350px;
+        height: 225px;
+    }
 }
 
 /*Mobile Small*/
