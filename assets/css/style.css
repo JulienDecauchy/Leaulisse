@@ -32,6 +32,7 @@ header {
     z-index: 1;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
+
 hr {
     display: block;
     height: 1px;
@@ -57,7 +58,7 @@ footer {
 }
 
 .wrapper {
-    max-width: 100%;
+    max-width: 2560px;
     width: 100%;
     margin: 0;
 }
@@ -107,6 +108,7 @@ ul li a:hover {
     border-color: var(--fourth-color);
     color: var(--fourth-color);
 }
+
 ul li span {
     font-weight: bold;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
@@ -129,6 +131,7 @@ ul li span {
     color: #132253;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
+
 .accueil-info {
     margin: 0rem 0rem 10rem 10rem;
     padding: 1.5rem;
@@ -138,12 +141,14 @@ ul li span {
     opacity: 90%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
+
 .accueil-info p {
     font-size: large;
 }
+
 .main-content-div {
     padding-left: 20%;
-    padding-right: 20%;
+    padding-right: 28%;
 }
 
 .main-content-div div {
@@ -168,8 +173,14 @@ ul li span {
 }
 
 .main-content-border img {
-    width: 600px;
-    height: 400px;
+    width: 525px;
+    height: 350px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main-content-border .img-vertical {
+    width: 350px;
+    height: 425px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -216,28 +227,19 @@ ul li span {
     margin-left: 42%;
     margin-bottom: 5%;
 }
+
 .horscontrat-div h2 {
     font-size: 40px;
     color: #132253;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
+
 /*Service-bg ID pour chaque pages*/
 #service-bg-misenservice {
     position: absolute;
     z-index: -1;
     width: 40rem;
-    height: 23rem;
-    margin-top: 0.2rem;
-    margin-left: 0.75rem;
-    background-color: white;
-    opacity: 90%;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
-}
-#service-bg-chaudiere {
-    position: absolute;
-    z-index: -1;
-    width: 42rem;
-    height: 91rem;
+    height: 25rem;
     margin-top: 0.2rem;
     margin-left: 0.75rem;
     background-color: white;
@@ -245,33 +247,51 @@ ul li span {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
 
+#service-bg-chaudiere {
+    position: absolute;
+    z-index: -1;
+    width: 55rem;
+    height: 80rem;
+    margin-top: 0.2rem;
+    margin-left: 0.75rem;
+    background-color: white;
+    opacity: 90%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+#service-div-chaudiere {
+    width: 70%;
+}
+
 #service-bg-adoucisseur {
     position: absolute;
     z-index: -1;
     width: 47rem;
-    height: 68rem;
+    height: 75rem;
     margin-top: 0.2rem;
     margin-left: 0.75rem;
     background-color: white;
     opacity: 90%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
+
 #service-bg-Climatisation_PAC {
     position: absolute;
     z-index: -1;
     width: 51rem;
-    height: 105rem;
+    height: 115rem;
     margin-top: 0.2rem;
     margin-left: 0.75rem;
     background-color: white;
     opacity: 90%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
+
 #service-bg-chauffe-eau_bain {
     position: absolute;
     z-index: -1;
     width: 51rem;
-    height: 58rem;
+    height: 60rem;
     margin-top: 0.2rem;
     margin-left: 0.75rem;
     background-color: white;
@@ -284,6 +304,7 @@ ul li span {
 #main-content-border-chauffe-eau_bain {
     margin-right: 40%;
 }
+
 #main-content-border-adoucisseur h2,
 #main-content-border-adoucisseur p,
 #main-content-border-Climatisation_PAC h2,
@@ -292,6 +313,7 @@ ul li span {
 #main-content-border-chauffe-eau_bain p {
     padding-left: 1rem;
 }
+
 #main-content-border-adoucisseur .service-div,
 #main-content-border-Climatisation_PAC .service-div,
 #main-content-border-chauffe-eau_bain .service-div {
@@ -337,6 +359,7 @@ ul li span {
     width: 550px;
     height: 300px;
 }
+
 /*Gallery img*/
 
 .gallery-container-clim img {
@@ -348,6 +371,7 @@ ul li span {
     filter: sepia(100%);
     transition-duration: 1s;
 }
+
 .gallery-container,
 .gallery-container-clim {
     display: flex;
@@ -407,7 +431,9 @@ ul li span {
 }
 
 /**/
-.service-div h2, .service-div p, .img-div {
+.service-div h2,
+.service-div p,
+.img-div {
     animation: fadein 1.5s;
 }
 
@@ -422,8 +448,134 @@ ul li span {
 }
 
 /*****************/
-@media (max-width: 1490px) {}
 
-@media (max-width: 1024px) {}
+/*Laptop Big*/
+@media (max-width: 1490px) {
+    .main-content-div {
+        padding-left: 18%;
+        padding-right: 28%;
+    }
 
-@media (max-width: 425px) {}
+    .main-content-border img {
+        width: 500px;
+    }
+
+    .service-div {
+        padding-left: 3.5%;
+        width: 90%;
+    }
+
+    #main-content-border-adoucisseur,
+    #main-content-border-Climatisation_PAC,
+    #main-content-border-chauffe-eau_bain {
+        margin-right: 0%;
+    }
+
+    #service-bg-misenservice {
+        height: 30rem;
+    }
+
+    #service-bg-chaudiere {
+        height: 84rem;
+    }
+
+    #service-div-chaudiere {
+        width: 90%;
+    }
+    #service-bg-adoucisseur {
+        height: 65rem;
+    }
+    
+    #service-bg-Climatisation_PAC {
+        height: 100rem;
+    }
+    
+
+}
+
+/*Laptop Small*/
+@media (max-width: 1024px) {
+    header {
+        height: 12rem;
+    }
+
+    .logo-div {
+        padding-top: 2rem;
+    }
+
+    .accueil-info {
+        margin: 0rem 0rem 10rem 5rem;
+        height: 18rem;
+    }
+
+    .main-content-div {
+        padding-left: 10%;
+        padding-right: 0%;
+    }
+
+    .main-content-border img {
+        width: 375px;
+        height: 275px;
+    }
+
+    .img-div {
+        margin-left: 30rem;
+    }
+
+    .service-div {
+        padding-left: 3.5%;
+        width: 50%;
+    }
+
+    .service-bg {
+        width: 30rem;
+        height: 22.5rem;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .apropos-div {
+        width: 75%;
+        height: 50rem;
+    }
+
+    #main-content-border-adoucisseur,
+    #main-content-border-Climatisation_PAC,
+    #main-content-border-chauffe-eau_bain {
+        margin-right: 0%;
+    }
+
+    #service-bg-misenservice {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    #service-bg-chaudiere {
+        width: 47rem;
+        height: 84rem;
+    }
+
+    #service-div-chaudiere {
+        width: 90%;
+    }
+
+    #service-bg-adoucisseur {
+        width: 51.5rem;
+    }
+
+    #service-bg-Climatisation_PAC {
+        width: 47rem;
+        height: 102rem;
+    }
+
+    .footer-map {
+        margin: 2.5% 5% 2.5% 5%;
+    }
+
+
+}
+
+/*Mobile Small*/
+@media (max-width: 320px) {}
