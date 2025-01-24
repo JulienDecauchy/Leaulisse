@@ -668,6 +668,25 @@ ul li span {
         width: 350px;
         height: 225px;
     }
+    /*****/
+    .gallery-container img {
+        width: 350px;
+        height: 500px;
+        margin: 10px;
+        border: 10px solid #fefae0;
+        -webkit-filter: none;
+        filter: none;
+        transition-duration: 1s;
+    }
+    .gallery-container-clim img {
+        width: 500px;
+        height: 350px;
+        margin: 10px;
+        border: 10px solid #fefae0;
+        -webkit-filter: none;
+        filter: none;
+        transition-duration: 1s;
+    }
 }
 
 /*Mobile Small*/
@@ -748,45 +767,47 @@ ul li span {
         height: 14.2rem;
     }
 
-    hr {
-        width: 85%;
-    }
-
     .apropos-div {
-        width: 75%;
+        width: 95%;
         height: 54rem;
     }
-
+    .apropos-div p {
+        font-size: 0.9rem;
+        padding: 2.5rem;
+    }
+    
     #service-bg-misenservice {
-        height: 26rem;
+        height: 17rem;
+        width: 16rem;
     }
 
     #service-bg-chaudiere {
-        width: 35.5rem;
+        width: 16rem;
         height: 86.5rem;
     }
 
     #service-bg-chauffe-eau_bain {
-        width: 39.75rem;
+        width: 16rem;
+        height: 52rem;
     }
     
     #service-bg-adoucisseur {
-        width: 39.75rem;
-        height: 70rem;
+        width: 16rem;
+        height: 67rem;
     }
 
     #service-bg-Climatisation_PAC {
-        width: 40rem;
+        width: 16rem;
         height: 102rem;
     }
 
     .horscontrat-div {
-        margin-left: 40%;
+        margin-left: 35%;
 
     }
     
     .horscontrat-div h2 {
-        font-size: 30px;
+        font-size: 16px;
     }
     
     .footer-wrapper {
@@ -800,4 +821,17 @@ ul li span {
         width: 275px;
         height: 272px;
     }
+        /*****/
+        .gallery-container img {
+            width: 250px;
+            height: 400px;
+            margin: 10px;
+            border: 5px solid #fefae0;
+        }
+        .gallery-container-clim img {
+            width: 325px;
+            height: 175px;
+            margin: 10px;
+            border: 5px solid #fefae0;
+        }
 }
