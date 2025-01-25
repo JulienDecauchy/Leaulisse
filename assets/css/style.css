@@ -402,6 +402,42 @@ ul li span {
 }
 
 /**/
+/*Contact*/
+.form-div {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    width: 38rem;
+    height: 5rem;
+    padding-left: 25px;
+    padding-top: 5px;
+    font-weight: 500;
+    border-color: #132253;
+    border-radius: 25px;
+    margin: 1rem;
+}
+
+.form-button {
+    width: 50%;
+    height: 2rem;
+    font-weight: bold;
+    background-color: #A6CDEE;
+    border-color: #132253;
+    color: #132253;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+/**/
 /*Page À Propos et Mentions Légales*/
 .main-content-div-apropos {
     display: flex;
@@ -691,6 +727,12 @@ ul li span {
         filter: none;
         transition-duration: 1s;
     }
+    
+    /*****/
+
+    .form-input {
+        width: 28rem;
+    }
 }
 
 /*Mobile Large*/
@@ -852,6 +894,14 @@ ul li span {
         margin: 10px;
         border: 5px solid #fefae0;
     }
+
+    /*****/
+
+    .form-input {
+        width: 18rem;
+        height: 3.75rem;
+    }
+
 }
 
 /*Mobile Medium*/
@@ -1135,4 +1185,12 @@ ul li span {
         width: 275px;
         height: 272px;
     }
+
+        /*****/
+
+        .form-input {
+            width: 15rem;
+            height: 2.75rem;
+        }
+    
 }

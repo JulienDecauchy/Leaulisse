@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="https://kit.fontawesome.com/123ab496ee.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/123ab496ee.js" crossorigin="anonymous"></script>
     <title>Leaulisse</title>
 </head>
 
@@ -45,14 +45,15 @@
             <div class="main-content-div-apropos">
                 <div class="apropos-div">
                     <h2>Contact</h2>
-                    <p></p>
-                    <form action="https://api.web3forms.com/submit" method="POST">
-                        <input type="hidden" name="access_key" value="d11ae087-f8ee-4b4e-9b7b-9a2b2a3aa03a">
-                        <input type="text" name="mail" placeholder="Votre E-Mail">
-                        <input type="text" name="sujet" placeholder="Votre Sujet">
-                        <textarea name="message" placeholder="Votre Message"></textarea>
-                        <button type="submit">Envoyer</button>
-                    </form>
+                    <div class="form-div">
+                        <form class="form" action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="d11ae087-f8ee-4b4e-9b7b-9a2b2a3aa03a">
+                            <input type="text" name="mail" placeholder="Votre E-Mail" class="form-input">
+                            <input type="text" name="sujet" placeholder="Votre Sujet" class="form-input">
+                            <textarea name="message" placeholder="Votre Message" class="form-input"></textarea>
+                            <button type="submit" class="form-button">Envoyer</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </main>
