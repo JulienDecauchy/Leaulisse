@@ -782,6 +782,10 @@ ul li span {
         height: 48rem;
     }
 
+    .apropos-div h2 {
+        font-size: 1.25rem;
+    }
+
     .apropos-div p {
         font-size: 0.9rem;
         padding: 2.5rem;
