@@ -136,7 +136,7 @@ ul li span {
     margin: 0rem 0rem 10rem 10rem;
     padding: 1.5rem;
     width: 80%;
-    height: 12rem;
+    height: auto;
     background-color: white;
     opacity: 90%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
@@ -542,7 +542,6 @@ ul li span {
 
     .accueil-info {
         margin: 0rem 0rem 10rem 5rem;
-        height: 18rem;
     }
 
     .main-content-div {
@@ -625,7 +624,6 @@ ul li span {
 
     .accueil-info {
         margin: 0rem 0rem 7.5rem 5rem;
-        height: 19rem;
     }
 
     .main-content-border img {
@@ -770,7 +768,6 @@ ul li span {
 
     .accueil-info {
         margin: 0rem 0rem 2.5rem 1.25rem;
-        height: 16rem;
         width: 80%;
     }
 
@@ -939,7 +936,6 @@ ul li span {
 
     .accueil-info {
         margin: 0rem 0rem 2.5rem 0.85rem;
-        height: 16rem;
         width: 80%;
     }
 
@@ -1080,7 +1076,6 @@ ul li span {
 
     .accueil-info {
         margin: 0rem 0rem 2.5rem 0.5rem;
-        height: 16rem;
         width: 80%;
     }
 
