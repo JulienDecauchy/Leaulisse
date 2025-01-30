@@ -403,15 +403,13 @@ ul li span {
 
 /**/
 /*Contact*/
+.form-pretext p {
+    margin-left: 10%;
+}
 .form-div {
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
 }
 
 .form-input {
@@ -419,7 +417,8 @@ ul li span {
     height: 5rem;
     padding-left: 25px;
     padding-top: 5px;
-    font-weight: 500;
+    font-weight: 800;
+    font-size: large;
     border-color: #132253;
     border-radius: 25px;
     margin: 1rem;
@@ -427,8 +426,9 @@ ul li span {
 
 .form-button {
     width: 50%;
-    height: 2rem;
+    height: 4rem;
     font-weight: bold;
+    font-size: large;
     background-color: #A6CDEE;
     border-color: #132253;
     color: #132253;
@@ -436,6 +436,24 @@ ul li span {
     border-radius: 50px;
     margin-left: 25%;
     margin-top: 5%;
+}
+
+.invalid-feedback,
+.empty-feedback {
+    display: none;
+}
+
+.was-validated :placeholder-shown:invalid~.empty-feedback {
+    display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid~.invalid-feedback {
+    display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+    border-color: #dc3545;
 }
 
 /**/
@@ -724,7 +742,7 @@ ul li span {
         filter: none;
         transition-duration: 1s;
     }
-    
+
     /*****/
 
     .form-input {
@@ -1177,11 +1195,11 @@ ul li span {
         height: 272px;
     }
 
-        /*****/
+    /*****/
 
-        .form-input {
-            width: 15rem;
-            height: 2.75rem;
-        }
-    
+    .form-input {
+        width: 15rem;
+        height: 2.75rem;
+    }
+
 }
