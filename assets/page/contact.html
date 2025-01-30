@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,10 +20,10 @@
     <div class="wrapper">
         <header>
             <div class="header-logo_nav-div">
-                <div class="logo-div"><img src="./assets/images/Logo LEAULISSE.jpg"></div>
+                <div class="logo-div"><img src="../images/Logo LEAULISSE.jpg"></div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="../../index.html">Accueil</a></li>
                         <li><a href="Apropos.html">À Propos</a></li>
                         <li><a href="mis en service.html">Mis en service</a></li>
                         <li><a href="chaudière gaz.html">Chaudière gaz</a></li>
@@ -38,28 +38,22 @@
             </div>
         </header>
         <main>
-            <div class="img-bg"><img src="assets\images\Background LEAULISSE.jpg"></div>
+            <div class="img-bg"><img src="../images/Background LEAULISSE.jpg"></div>
             <div class="title-div">
                 <h1>Entreprise Individuelle LEAULISSE</h1>
             </div>
             <div class="main-content-div-apropos">
                 <div class="apropos-div">
-                    <h2>À Propos</h2>
-                    <p><i class="fa-solid fa-droplet"></i> Les visites d'entretien comprennent divers points de contrôle
-                        obligatoire avec un constat de l'état
-                        apparent de l'appareil et de son fonctionnement lors d'une première visite, de la conformité et
-                        opacité des amenées d'air (selon les modèles), de l'étanchéité eau, gaz et d'absence de rejet de
-                        monoxyde de l'appareil.</p>
-
-                    <p><i class="fa-solid fa-droplet"></i> Un contrat annuel pourra être établi sous réserve d'une
-                        chaudière
-                        ou Chauffe-eau en bon état de
-                        fonctionnement, à défaut, un devis de mise aux normes constructeurs sera établi pour un confort
-                        optimal.</p>
-
-                    <p><i class="fa-solid fa-droplet"></i> Réalisation d'entretien de climatisation, gainable, PAC et
-                        adoucisseur avec d'autres produits
-                        possibles.</p>
+                    <h2>Contact</h2>
+                    <div class="form-div">
+                        <form class="form" action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="d11ae087-f8ee-4b4e-9b7b-9a2b2a3aa03a">
+                            <input type="text" name="mail" placeholder="Votre E-Mail" class="form-input">
+                            <input type="text" name="sujet" placeholder="Votre Sujet" class="form-input">
+                            <textarea name="message" placeholder="Votre Message" class="form-input"></textarea>
+                            <button type="submit" class="form-button">Envoyer</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </main>
