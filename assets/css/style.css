@@ -251,7 +251,7 @@ ul li span {
     position: absolute;
     z-index: -1;
     width: 55rem;
-    height: 80rem;
+    height: 88rem;
     margin-top: 0.2rem;
     margin-left: 0.75rem;
     background-color: white;
@@ -531,7 +531,7 @@ ul li span {
     }
 
     #service-bg-chaudiere {
-        height: 84rem;
+        height: 92rem;
     }
 
     #service-div-chaudiere {
@@ -686,7 +686,7 @@ ul li span {
 
     #service-bg-chaudiere {
         width: 35.5rem;
-        height: 86.5rem;
+        height: 96.5rem;
     }
 
     #service-bg-chauffe-eau_bain {
